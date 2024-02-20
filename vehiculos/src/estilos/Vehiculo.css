@@ -1,0 +1,31 @@
+.contenedor-vehiculo{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background-color: rgb(140, 119, 243);
+    align-items: center;
+    border: 2px solid black;
+   
+}
+.imagen-vehiculo{
+    height:auto ;
+    width: auto;
+    border-radius: 100%;
+}
+
+.contenedor-texto-vehiculo{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 600;
+    line-height: 1rem;
+    background-color: burlywood;
+}
+
+.especificacion-vehiculo{
+    font-size: 1rem;
+}
+
+.resena-vehiculo{
+    font-size: 1rem;
+    text-align: left;
+}
