@@ -4,7 +4,7 @@ function App(props) {
     return (
         <div className="App">
     <div className="contenedor-principal">
-      <h1>Vehiculos mas Rapidos: </h1>
+      <h1>VEHICULOS MAS RAPIDOS</h1>
       <Vehiculos
         nombre='auto'
         pais='Inglaterra'

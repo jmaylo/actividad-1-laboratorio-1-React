@@ -1,19 +1,25 @@
-.contenedor-vehiculo{
-    width: 800px;
-    height: 600px;
+h1 {
+    font-size: 40px;
+    margin-bottom: 10vh;
+    color: blue;
+}
+
+.vehiculos-contenedor{
+    width: 1000px;
+    margin-left: 17%;
+    padding: 50px;
     display: flex;
-    background-color: rgb(140, 119, 243);
-    align-items: center;
+    border-radius: 2px;
     border: 2px solid black;
    
 }
-.imagen-vehiculo{
-    height:auto ;
-    width: auto;
-    border-radius: 100%;
+.vehiculos-imagen{
+    height:20% ;
+    width: 20%;
+    border-radius: 80%;
 }
 
-.contenedor-texto-vehiculo{
+.contenedor-texto-vehiculos{
     text-align: center;
     font-family: fantasy;
     font-weight: 600;
@@ -21,11 +27,13 @@
     background-color: burlywood;
 }
 
-.especificacion-vehiculo{
+.especificacion-vehiculos{
     font-size: 1rem;
+    color: blue;
 }
 
-.resena-vehiculo{
+.resena-vehiculos{
     font-size: 1rem;
     text-align: left;
+    color: red;
 }
